@@ -1,2 +1,2 @@
-# CS-466-Final-Prohect
+# CS-466-Final-Project
 Nussinov Algorithm 
