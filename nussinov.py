@@ -25,7 +25,6 @@ def nussinov(v):
 
 
 
-
 def isPair(i, j): #returns boolean for if its a pair or not 
 	if (i == 'A' and j == 'U'):
 		return 1
