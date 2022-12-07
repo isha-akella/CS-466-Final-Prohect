@@ -75,6 +75,8 @@ def findScore(i, j, M, P, pair): #takes the coordinate and calculates isPair(i,j
 def backtrace(v, P, i, j):
    w = ["-" for x in range(len(v))]
    while True:
+      if (i >= j):
+          break
       di, dj = P[i][j]
       if (di,dj) == LEFT:
           w[j-1] = "-"
@@ -95,8 +97,6 @@ def backtrace(v, P, i, j):
              w[dj[0] - 1] = ")"
           break
       i, j = i + di, j + dj
-      if (i >= j):
-          break
    return w
  
  
